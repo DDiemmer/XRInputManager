@@ -20,6 +20,7 @@ Necessary softwares to use the XRUI_Elements Package.
 
 1. Create a new Unity Project or open an existent one (Unity 2019.4).
 2. On Menu Bar, access "Window->PackageManager" - [Package Manager](https://docs.unity3d.com/Packages/com.unity.package-manager-ui@2.0/manual/index.html).
+3.Enable Oculus in Player->Settings->XR Plug-in Management
 
 # Demo Scene
 
