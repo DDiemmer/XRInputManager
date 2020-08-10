@@ -1,6 +1,6 @@
 {
   "name": "com.ddiemmer.xr-input-manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "XR Input Manager",
   "description": "Allows creating handlers for easy access to the buttons on the VR controls",
   "unity": "2019.4",
