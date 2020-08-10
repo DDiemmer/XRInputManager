@@ -20,13 +20,12 @@
     "url": ""
   },
   "type": "tool",
-"samples": [
-   {
-     "displayName": "Sample Demo",
-
-     "description": "Demo Scene",
-
-     "path": "Samples~/Demo"
-   }
+  "samples": [
+    {
+      "displayName": "Sample Demo",
+      "description": "Demo Scene",
+      "path": "Samples~/Demo"
+    }
+  ]
 
 }
