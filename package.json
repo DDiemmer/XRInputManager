@@ -19,5 +19,14 @@
     "email": "ddiemmer@gmail.com",
     "url": ""
   },
-  "type": "tool"
+  "type": "tool",
+"samples": [
+   {
+     "displayName": "Sample Demo",
+
+     "description": "Demo Scene",
+
+     "path": "Samples~/Demo"
+   }
+
 }

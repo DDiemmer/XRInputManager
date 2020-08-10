@@ -8,6 +8,7 @@ obj/
 *.csproj
 *.sln
 *.vscode
+*.Log
 
 #remove version control backup files
 *.orig
