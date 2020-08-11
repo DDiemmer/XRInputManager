@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -11,18 +12,27 @@ namespace InputManager
         public List<AxisHandler2D> allAxisHandlers2D = new List<AxisHandler2D>();
 
         private XRController controller;
+        public bool verifyEveryFrame = true;
+        public float timeHandle = 0.01f;
 
-        private void Awake()
+        private void Start()
         {
             controller = GetComponent<XRController>();
+            StartCoroutine(UpdateHandler());
         }
 
-        // Update is called once per frame
-        void Update()
+        private IEnumerator UpdateHandler()
         {
             HandleButtonEvents();
             HandleAxis2dEvents();
             HandleAxisEvents();
+
+            if (verifyEveryFrame)
+                yield return new WaitForEndOfFrame();
+            else
+                yield return new WaitForSeconds(timeHandle);
+
+            StartCoroutine(UpdateHandler());
         }
 
         private void HandleButtonEvents()

@@ -1273,6 +1273,8 @@ MonoBehaviour:
   allAxisHandlers2D:
   - {fileID: 11400000, guid: 51201dbac3c5ceb42829301e37f23074, type: 2}
   - {fileID: 11400000, guid: cdf5f6df8cb6972418c83e584969c8da, type: 2}
+  verifyEveryFrame: 1
+  timeHandle: 0.01
 --- !u!114 &1245852468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1357,6 +1359,8 @@ MonoBehaviour:
   allAxisHandlers2D:
   - {fileID: 11400000, guid: 51201dbac3c5ceb42829301e37f23074, type: 2}
   - {fileID: 11400000, guid: d3d3191a457eee545919779ddf5eb59a, type: 2}
+  verifyEveryFrame: 1
+  timeHandle: 0.01
 --- !u!114 &1319481399
 MonoBehaviour:
   m_ObjectHideFlags: 0

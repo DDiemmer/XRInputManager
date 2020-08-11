@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f6cc128e654c234ba183e7ec1407c92, type: 3}
   m_Name: LGrip
   m_EditorClassIdentifier: 
-  button: 5
+  button: 3
   previousPress: 0
