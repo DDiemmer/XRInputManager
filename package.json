@@ -5,7 +5,7 @@
   "description": "Allows creating handlers for easy access to the buttons on the VR controls",
   "unity": "2019.4",
   "dependencies": {
-    "com.unity.xr.interaction.toolkit": "0.9.4-preview",
+    "com.unity.xr.interaction.toolkit": "2.0.1",
     "com.unity.textmeshpro": "2.0.1"
   },
   "keywords": [
